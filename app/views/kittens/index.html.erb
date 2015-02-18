@@ -1,0 +1,13 @@
+<h2>Kitten</h2>
+<p>This is not meant to be a full blown cute app for all to consume</p>
+<p>This is rather a super simple foray into the world of api consumption</p>
+<br>
+</hr>
+<%@kittens.each do |cat| %>
+	<br>Name: <%=cat.name%> <br>
+	 Age: <%=cat.age%>
+<%end%>
+<br>
+<br>
+
+<%=link_to 'New Kitty' , new_kitten_path%>
