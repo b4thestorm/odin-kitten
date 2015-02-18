@@ -1,0 +1,7 @@
+== README
+
+This is a simple exploration of building an API client. 
+If this is app is forked, please know that this app is 
+running sqlite as a standard db. It has a simple CRUD 
+setup and responds in JSON format as well as standard 
+HTML. 
